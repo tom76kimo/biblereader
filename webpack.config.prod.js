@@ -29,6 +29,13 @@ module.exports = {
       test: /\.js$/,
       loaders: ['babel'],
       include: path.join(__dirname, 'src')
+    }, {
+      test: /\.js$/,
+      loader: 'atomic-loader',
+      exclude: /(node_modules)/,
+      query: {
+        configPath: __dirname + '/atomCssConfig.js',
+      }
     }]
   }
 };
