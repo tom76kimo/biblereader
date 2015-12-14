@@ -5,7 +5,7 @@ class Button extends React.Component {
   render() {
     const buttonClass = Classnames('Bdrs(4px) O(n) Fz(15px) Bd(0) Cur(p) D(ib) Px(30px) Py(10px) Bxsh(material) ', {
       'Bgc(#fcfdfe) Bgc(#ebebed):h': !this.props.type,
-      'C(white) Bgc(#44b7ae) Bgc(#33a69d):h': this.props.type === 'primary',
+      'C(white) Bgc(#0f69ff) Bgc(#0e58ee):h': this.props.type === 'primary',
     });
 
     return (
