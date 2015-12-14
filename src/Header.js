@@ -21,7 +21,7 @@ class RightBox extends Component {
 class Header extends Component {
   render() {
     return (
-      <div className="Bgc(#7c53ff) W(100%) Px(20px) H(70px) Lh(70px) Bxsh(material) Bxz(bb)">
+      <div className="Bgc(#7b0099) W(100%) Px(20px) H(70px) Lh(70px) Bxsh(material) Bxz(bb)">
         <AppTitle />
         <RightBox />
       </div>
