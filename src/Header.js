@@ -12,7 +12,7 @@ class RightBox extends Component {
   render() {
     return (
       <div className="Pos(a) End(0) T(0)">
-        <input type="text" />
+        <a href="/auth/google">Sign In with Google</a>
       </div>
     );
   }
